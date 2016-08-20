@@ -1,0 +1,97 @@
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper{
+
+}
+
+header{
+  height: 100px;
+  width: calc(100vw - 20px);
+  display: inline-block;
+}
+
+#header-left{
+  background: #D0011B;
+  width: 31%;
+  height: inherit;
+  position: relative;
+  display: inline-block;
+  margin: 1%;
+}
+
+#header-mid{
+  background: #4990E2;
+  width: 31%;
+  height: inherit;
+  position: relative;
+  display: inline-block;
+  margin: 1%;
+}
+
+#header-right{
+  background: #4A4A4A;
+  width: 31%;
+  height: inherit;
+  position: relative;
+  display: inline-block;
+  margin: 1%;
+}
+
+#main-content{
+  margin: 10px;
+  width: calc(100vw - 30px);
+  clear: both;
+}
+
+#third-sec{
+  height: 250px;
+  width: calc(100vw - 20px);
+}
+
+#third-sec .left{
+  background: #D0011B;
+  width: 32%;
+  height: inherit;
+  float: left;
+  margin: 1% 0 1% 1%;
+}
+
+#third-sec .right{
+  background: #4990E2;
+  width: 65%;
+  height: inherit;
+  float: left;
+  margin: 1% 1% 1% 0;
+}
+
+.fourth-sec{
+  height: 100px;
+  width: calc(100vw - 20px);
+
+}
+
+.fourth-sec .left{
+  background: #4990E2;
+  width: 64%;
+  height: inherit;
+  float: left;
+  margin: 1% 0 1% 1%;
+}
+
+.fourth-sec .right{
+  background: #D0011B;
+  width: 33%;
+  height: inherit;
+  float: left;
+  margin: 1% 1% 1% 0;
+}
+
+.fourth-sec .box{
+  width: 80%;
+  background: #4A4A4A;
+  height: inherit;
+  margin:0 auto;
+}
