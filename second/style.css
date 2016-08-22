@@ -14,6 +14,7 @@ html, body {
 
 .topText {
   padding: 5px 25px 0 25px;
+  font-family: 'Arial';
 }
 
 .btn1 {
@@ -33,7 +34,6 @@ html, body {
 }
 
 .bottom {
-  height: 450px;
   background: #fff;
   margin: 20px;
   width: 100vw - 20px;
@@ -41,10 +41,11 @@ html, body {
 }
 
 .insrtdImg {
-
+  padding-top: 30px;
 }
 
 .btmTxt {
-  padding: 5px 25px 0 25px;
+  padding: 5px 35px;
   text-align: left;
+  font-family: 'Arial';
 }
