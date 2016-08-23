@@ -17,20 +17,25 @@ html, body {
   font-family: 'Arial';
 }
 
-.btn1 {
-  width: 50px;
-  height: 25px;
-  background: #D0011B;
-  float: left;
+.btn {
+  width: 100px;
+  height: 40px;
   margin: 20px;
+  line-height: 40px;
+  text-align: center;
+  font-family: 'Arial';
+  color: #fff;
+  font-size: 14pt;
+  float: left;
+
+}
+
+.btn1 {
+  background: #D0011B;
 }
 
 .btn2 {
- width: 50px;
- height: 25px;
  background: #4990E2;
- float: left;
- margin: 20px;
 }
 
 .bottom {
